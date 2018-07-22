@@ -2,7 +2,7 @@
 
 This page in in process of editing, please, comeback later !
 
-![logo](http://www.urieldeveaud.com/subsites/adb3/logo_archeodatabank.png)
+![logo](http://www.urieldeveaud.com/subsites/adb3/logo3.jpg)
 
 
 Archeo Databank is a Geographic Information System (GIS) software running on a mobile web PHP server (USB key), made to facilitate the administration of a <b>Spatial Data Infrastructure</b> (SDI) based on History or Chronology timeline , and for publishing cartographic details and research applications .
