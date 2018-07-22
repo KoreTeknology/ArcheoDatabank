@@ -7,15 +7,14 @@ This page in in process of editing, please, comeback later !
 
 Archeo Databank is a Historical Geographic Information System (HGIS) software running on a mobile web PHP server (USB key), made to facilitate the administration of a <b>Spatial Data, Attribut Data and File Data</b> (SAF) based on History or Chronology timeline , and for publishing cartographic details and research applications .
 
-The Archeo Databank platform is a Free Software accessible thourgh a simple web browser. It provides numerous GIS capability and let the user do the following:
+> This work is intended to provide a dedicated HTML5 Mobile template for open source HGIS mapping solution. 
+It is also a cross-level and multi-contextual data factory and archive databank for research and educational contents.
+> It is based on Leaflet.js as map viewer, a lightweight library and its plugins as well as Jquery and Bootstrap frameworks. It works with various types of files and datatypes: GeoJson, CSV, image layers (jpg/png), and local tiles images. 
+
+The Archeo Databank platform is a Free Software accessible thourgh a simple web browser. It lets the user do the following:
 
  * <b>Import/Export and store GIS data</b> (both vector and raster data)
- * <b>Query</b> Database System and external Data packages
- * <b>Publish</b> GIS data by using OGC Web Services: WMS, WFS et WMTS
- * <b>Treate, edit and style</b> data sources
- * Compose and save maps to create application projects
- * Configure and generate Web GIS applications
- * <b>Access and share maps</b>
+ * <b>Query</b> Geojson Database System and external Data packages
 
 <h3>Basic concepts: Mobile, Sharable and Compatible Database</h3>
 
@@ -25,9 +24,7 @@ The Archeo Databank platform is a Free Software accessible thourgh a simple web 
 
 ...
 
-> This work is intended to provide a dedicated template for open source HGIS mapping solution. 
-It is also a cross-level relational (aka matrix) and contextual data factory and archive for research and educational contents.
-> It is based on Leaflet.js as map viewer, a lightweight library and its plugins as well as Jquery and Bootstrap. It works with GeoJson, CSV, image layers, and local tiles. 
+
 
 ### Instructions ###
 
