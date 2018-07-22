@@ -1,13 +1,13 @@
-# Archeodatabank
+# ArcheoDatabank V3
 
 This page in in process of editing, please, comeback later !
 
 ![logo](http://www.urieldeveaud.com/subsites/adb3/logo3.jpg)
 
 
-Archeo Databank is a Geographic Information System (GIS) software running on a mobile web PHP server (USB key), made to facilitate the administration of a <b>Spatial Data Infrastructure</b> (SDI) based on History or Chronology timeline , and for publishing cartographic details and research applications .
+Archeo Databank is a Historical Geographic Information System (HGIS) software running on a mobile web PHP server (USB key), made to facilitate the administration of a <b>Spatial Data, Attribut Data and File Data</b> (SAF) based on History or Chronology timeline , and for publishing cartographic details and research applications .
 
-The Archeo Databank platform is a GIS Software accessible thourgh a simple web browser. It provides numerous GIS capability and let the user do the following:
+The Archeo Databank platform is a Free Software accessible thourgh a simple web browser. It provides numerous GIS capability and let the user do the following:
 
  * <b>Import/Export and store GIS data</b> (both vector and raster data)
  * <b>Query</b> Database System and external Data packages
@@ -17,7 +17,7 @@ The Archeo Databank platform is a GIS Software accessible thourgh a simple web b
  * Configure and generate Web GIS applications
  * <b>Access and share maps</b>
 
-<h3>Basic concepts: using the OGC standards</h3>
+<h3>Basic concepts: Mobile, Sharable and Compatible Database</h3>
 
 ...
 
@@ -25,12 +25,9 @@ The Archeo Databank platform is a GIS Software accessible thourgh a simple web b
 
 ...
 
-An HTML5 Framework for Knowledge Database Visualization based on Geographic coordinates - Community Edition
-
-> This work is a students project and it is intended to provide a dedicated template for open source GIS mapping solution. 
+> This work is intended to provide a dedicated template for open source HGIS mapping solution. 
 It is also a cross-level relational (aka matrix) and contextual data factory and archive for research and educational contents.
-> It is based on Leaflet.js as map viewer, a lightweight library and its plugins. It works with GeoJson, CSV, image, local tiles, 
-and vectors layers. 
+> It is based on Leaflet.js as map viewer, a lightweight library and its plugins as well as Jquery and Bootstrap. It works with GeoJson, CSV, image layers, and local tiles. 
 
 ### Instructions ###
 
