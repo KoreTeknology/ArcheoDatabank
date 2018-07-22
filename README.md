@@ -5,7 +5,7 @@ This page in in process of editing, please, comeback later !
 ![logo](http://www.urieldeveaud.com/subsites/adb3/logo3.jpg)
 
 
-Archeo Databank is a Historical Geographic Information System (HGIS) software running on a mobile web PHP server (USB key), made to facilitate the administration of a <b>Spatial Data, Attribut Data and File Data</b> (SAF) based on History or Chronology timeline , and for publishing cartographic details and research applications .
+Archeo Databank is a Historical Geographic Information System (HGIS) software running on a mobile web PHP server, made to facilitate the administration of a <b>Spatial Data, Attribut Data and File Data</b> (SAF) based on History or Chronology timeline , and for publishing cartographic details and research applications .
 
 > This work is intended to provide a dedicated HTML5 Mobile template for open source HGIS mapping solution. 
 It is also a cross-level and multi-contextual data factory and archive databank for research and educational contents.
@@ -16,6 +16,8 @@ The Archeo Databank platform is a Free Software accessible thourgh a simple web 
  * <b>Import/Export and store GIS data</b> (both vector and raster data)
  * <b>Query</b> Geojson Database System and external Data packages
 
+***
+
 <h3>Basic concepts: Mobile, Sharable and Compatible Database</h3>
 
 ...
@@ -24,36 +26,39 @@ The Archeo Databank platform is a Free Software accessible thourgh a simple web 
 
 ...
 
+**Goals (V1):**
+* **Data vizualisation**: JSON/CSV ([See more details](https://github.com/KolamInstitute/Galaxy-/wiki/GeoJson-specifications))
+* **Views**: Map/table
+* **Screens**: desktop/tablet
+* **Templates**: CSS themes and iconset
 
+**Goals (V2):**
+* **Data vizualisation**: SHP/PostgreSQL ([See more details](https://github.com/KolamInstitute/Galaxy-/wiki/GeoJson-specifications))
+* **Views**: Charts/timeline
+* **Screens**: smartphone
+
+***
 
 ### Instructions ###
 
 > Just add this code to your HTML document header:
 
 ```html
-    <link rel="stylesheet" type="text/css" href="app/galaxy-theme.css" /> // UI design
-    <link rel="stylesheet" type="text/css" href="app/galaxy-views.css" /> // map, grid...
+    <link rel="stylesheet" type="text/css" href="app/library.css" /> // UI design
+    <script type="text/javascript" src="app/library.js"></script> // include dependencies
 ```
-> Add Galaxy default setup files
+> Edit default setup files
 
 ```html
-    <script type="text/javascript" src="app/galaxy-core.js"></script> // include dependencies
-    <script type="text/javascript" src="app/galaxy-conf.js"></script> // user settings
+    <script type="text/javascript" src="app/config.js"></script> // include dependencies
 ```
-> And then, connect your database...
 
-```html
-    <script type="text/javascript" src="data/layers.js"></script> // user layers def.
-    <script type="text/javascript" src="data/features.js"></script> // user actions
-    <script type="text/javascript" src="data/localdb.js"></script> // path to json/csv files and tiles
-    <script type="text/javascript" src="data/serverdb.js"></script> // server storage connection
-```
 > And the last step, include the container DIV where you like, it will adjust 
 to the available space in the screen or in the up-level DIV.
 
 
 ```html
-    <div id="galaxy" class="autosize"></div> <!-- Html DIV -->
+    <div id="adb_main" class="autosize"></div> <!-- Html DIV -->
 ```
 
 ###THIS DOCUMENTATION IS IN PROGRESS !!!
@@ -90,18 +95,6 @@ to the available space in the screen or in the up-level DIV.
 ![gowiki](http://www.vpul.upenn.edu/gic/images/arrow2.gif)   Demo app 0.9: Coming soon !
 * * *
 
-**Goals (V1):**
-* **Data vizualisation**: JSON/CSV ([See more details](https://github.com/KolamInstitute/Galaxy-/wiki/GeoJson-specifications))
-* **Views**: Map/table
-* **Screens**: desktop/tablet
-* **Templates**: CSS themes and iconset
-
-**Goals (V2):**
-* **Data vizualisation**: SHP/PostgreSQL ([See more details](https://github.com/KolamInstitute/Galaxy-/wiki/GeoJson-specifications))
-* **Views**: Charts/timeline
-* **Screens**: smartphone
-
-***
 
 Dependencies 
 ------------
