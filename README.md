@@ -1,9 +1,7 @@
-# ArcheoDatabank V3
-
-This page is in process of editing, please, come back later !
-
 ![logo](https://github.com/KoreTeknology/ArcheoDatabank/blob/master/logo3.jpg)
 
+# ArcheoDatabank V3
+This page is in process of editing, please, come back later !
 
 Archeo Databank is a Historical Geographic Information System (HGIS) software running on a mobile web PHP server, made to facilitate the administration of a <b>Spatial Data, Attribut Data and File Data</b> (SAF) based on History or Chronology timeline , and for publishing cartographic details and research applications .
 
