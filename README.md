@@ -1,6 +1,6 @@
 # ArcheoDatabank V3
 
-This page in in process of editing, please, comeback later !
+This page is in process of editing, please, come back later !
 
 ![logo](https://github.com/KoreTeknology/ArcheoDatabank/blob/master/logo3.jpg)
 
